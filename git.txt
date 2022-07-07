@@ -1,0 +1,12 @@
+Git:
+    - Keeps track of changes to code
+    - Synchronizes code between different people
+    - Can test changes to code without losing the original
+    - Can revert back to old versions of code
+
+    git clone <url>: makes a copy of an online repository on your computer
+    git add <filename>: track changes to this file
+    git commit -m "message": confirm the changes
+    git diff: shows changes that have not been tracked yet
+    git status: current status of repository
+    git push: sends commited changes to repository
