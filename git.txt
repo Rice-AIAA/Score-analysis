@@ -7,6 +7,15 @@ Git:
     git clone <url>: makes a copy of an online repository on your computer
     git add <filename>: track changes to this file
     git commit -m "message": confirm the changes
+    git commit -am "message": adds and confirms changes
     git diff: shows changes that have not been tracked yet
     git status: current status of repository
     git push: sends commited changes to repository
+    git pull: retrieves the latest changes from repository to your computer
+    git log: shows history of commits
+    git reset --hard <commit>: reverts code to previous commit
+    git reset --hard origin/master: reverts code back to version on repository
+    git branch: lists the existing branches
+    git branch <branch_name>: Create a new branch
+    git checkout <branch_name>: switch to the new branch
+    git merge <branch_name>: merges 'branch_name' with the current branch
